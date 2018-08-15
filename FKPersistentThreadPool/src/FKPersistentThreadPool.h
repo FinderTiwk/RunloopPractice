@@ -1,6 +1,6 @@
 //
-//  XPersistentThreadPool.h
-//  XPersistentThreadPool
+//  FKPersistentThreadPool.h
+//  FKPersistentThreadPool
 //
 //  Created by _Finder丶Tiwk on 16/3/15.
 //  Copyright © 2016年 _Finder丶Tiwk. All rights reserved.
@@ -13,7 +13,7 @@
  *  @brief 常驻线程池
  *  @since v1.0.0
  */
-@interface XPersistentThreadPool : NSObject
+@interface FKPersistentThreadPool : NSObject
 
 + (instancetype)shareInstance;
 
@@ -28,9 +28,15 @@
  *  @since v1.0.0
  */
 - (void)addTaskThreadWithID:(NSString *)ID;
-- (void)addTaskThreadWithID:(NSString *)ID name:(NSString *)name;
-- (void)addTaskThreadWithID:(NSString *)ID name:(NSString *)name stackSize:(NSUInteger)stackSize;
-- (void)addTaskThreadWithID:(NSString *)ID name:(NSString *)name stackSize:(NSUInteger)stackSize priority:(NSQualityOfService)priority;
+- (void)addTaskThreadWithID:(NSString *)ID
+                       name:(NSString *)name;
+- (void)addTaskThreadWithID:(NSString *)ID
+                       name:(NSString *)name
+                  stackSize:(NSUInteger)stackSize;
+- (void)addTaskThreadWithID:(NSString *)ID
+                       name:(NSString *)name
+                  stackSize:(NSUInteger)stackSize
+                   priority:(NSQualityOfService)priority;
 
 /*! 从线程池中删除ID对应的线程*/
 - (void)removeThreadWithID:(NSString *)ID;
@@ -53,9 +59,19 @@
  *  @since v1.0.0
  */
 
-- (BOOL)executeTask:(void(^)())task withID:(NSString *)ID;
-- (BOOL)executeTask:(void(^)())task withID:(NSString *)ID interval:(NSTimeInterval)interval;
-- (BOOL)executeTask:(void(^)())task withID:(NSString *)ID interval:(NSTimeInterval)interval delay:(NSTimeInterval)delay;
-- (BOOL)executeTask:(void(^)())task withID:(NSString *)ID interval:(NSTimeInterval)interval delay:(NSTimeInterval)delay repeat:(BOOL)repeat;
+- (BOOL)executeTask:(void(^)(void))task
+             withID:(NSString *)ID;
+- (BOOL)executeTask:(void(^)(void))task
+             withID:(NSString *)ID
+           interval:(NSTimeInterval)interval;
+- (BOOL)executeTask:(void(^)(void))task
+             withID:(NSString *)ID
+           interval:(NSTimeInterval)interval
+              delay:(NSTimeInterval)delay;
+- (BOOL)executeTask:(void(^)(void))task
+             withID:(NSString *)ID
+           interval:(NSTimeInterval)interval
+              delay:(NSTimeInterval)delay
+             repeat:(BOOL)repeat;
 
 @end

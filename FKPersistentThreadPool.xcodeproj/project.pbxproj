@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DB4166D1C97E55F006F3A50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4166C1C97E55F006F3A50 /* main.m */; };
-		1DB416701C97E55F006F3A50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4166F1C97E55F006F3A50 /* AppDelegate.m */; };
-		1DB416731C97E55F006F3A50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB416721C97E55F006F3A50 /* ViewController.m */; };
-		1DB416761C97E55F006F3A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB416741C97E55F006F3A50 /* Main.storyboard */; };
-		1DB416781C97E55F006F3A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB416771C97E55F006F3A50 /* Assets.xcassets */; };
-		1DB4167B1C97E55F006F3A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB416791C97E55F006F3A50 /* LaunchScreen.storyboard */; };
-		1DB416931C97E5B2006F3A50 /* XPersistentThreadPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB416921C97E5B2006F3A50 /* XPersistentThreadPool.m */; };
-		1DB4169B1C97E79A006F3A50 /* XPersistentThreadPoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4169A1C97E79A006F3A50 /* XPersistentThreadPoolTests.m */; };
+		00B4F2C82123CA4B00A70C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B4F2BB2123CA4B00A70C0B /* Assets.xcassets */; };
+		00B4F2C92123CA4B00A70C0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4F2BC2123CA4B00A70C0B /* ViewController.m */; };
+		00B4F2CA2123CA4B00A70C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B4F2BD2123CA4B00A70C0B /* LaunchScreen.storyboard */; };
+		00B4F2CB2123CA4B00A70C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B4F2BF2123CA4B00A70C0B /* Main.storyboard */; };
+		00B4F2CC2123CA4B00A70C0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4F2C12123CA4B00A70C0B /* main.m */; };
+		00B4F2CD2123CA4B00A70C0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4F2C22123CA4B00A70C0B /* AppDelegate.m */; };
+		00B4F2CF2123CA4B00A70C0B /* FKPersistentThreadPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4F2C72123CA4B00A70C0B /* FKPersistentThreadPool.m */; };
+		1DB4169B1C97E79A006F3A50 /* FKPersistentThreadPoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4169A1C97E79A006F3A50 /* FKPersistentThreadPoolTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DB416681C97E55E006F3A50 /* XPersistentThreadPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPersistentThreadPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DB4166C1C97E55F006F3A50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1DB4166E1C97E55F006F3A50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1DB4166F1C97E55F006F3A50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1DB416711C97E55F006F3A50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1DB416721C97E55F006F3A50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1DB416751C97E55F006F3A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1DB416771C97E55F006F3A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1DB4167A1C97E55F006F3A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1DB4167C1C97E55F006F3A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DB416911C97E5B2006F3A50 /* XPersistentThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPersistentThreadPool.h; sourceTree = "<group>"; };
-		1DB416921C97E5B2006F3A50 /* XPersistentThreadPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPersistentThreadPool.m; sourceTree = "<group>"; };
-		1DB416981C97E79A006F3A50 /* XPersistentThreadPoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPersistentThreadPoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DB4169A1C97E79A006F3A50 /* XPersistentThreadPoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPersistentThreadPoolTests.m; sourceTree = "<group>"; };
+		00B4F2BA2123CA4B00A70C0B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00B4F2BB2123CA4B00A70C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B4F2BC2123CA4B00A70C0B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00B4F2BE2123CA4B00A70C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00B4F2C02123CA4B00A70C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00B4F2C12123CA4B00A70C0B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B4F2C22123CA4B00A70C0B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00B4F2C32123CA4B00A70C0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B4F2C42123CA4B00A70C0B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00B4F2C62123CA4B00A70C0B /* FKPersistentThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPersistentThreadPool.h; sourceTree = "<group>"; };
+		00B4F2C72123CA4B00A70C0B /* FKPersistentThreadPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPersistentThreadPool.m; sourceTree = "<group>"; };
+		00B4F2D02123CCAE00A70C0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1DB416681C97E55E006F3A50 /* FKPersistentThreadPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKPersistentThreadPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB416981C97E79A006F3A50 /* FKPersistentThreadPoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FKPersistentThreadPoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB4169A1C97E79A006F3A50 /* FKPersistentThreadPoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKPersistentThreadPoolTests.m; sourceTree = "<group>"; };
 		1DB4169C1C97E79A006F3A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,11 +64,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B4F2B92123CA4B00A70C0B /* FKPersistentThreadPool */ = {
+			isa = PBXGroup;
+			children = (
+				00B4F2D02123CCAE00A70C0B /* README.md */,
+				00B4F2BA2123CA4B00A70C0B /* AppDelegate.h */,
+				00B4F2BB2123CA4B00A70C0B /* Assets.xcassets */,
+				00B4F2BC2123CA4B00A70C0B /* ViewController.m */,
+				00B4F2BD2123CA4B00A70C0B /* LaunchScreen.storyboard */,
+				00B4F2BF2123CA4B00A70C0B /* Main.storyboard */,
+				00B4F2C12123CA4B00A70C0B /* main.m */,
+				00B4F2C22123CA4B00A70C0B /* AppDelegate.m */,
+				00B4F2C32123CA4B00A70C0B /* Info.plist */,
+				00B4F2C42123CA4B00A70C0B /* ViewController.h */,
+				00B4F2C52123CA4B00A70C0B /* src */,
+			);
+			path = FKPersistentThreadPool;
+			sourceTree = "<group>";
+		};
+		00B4F2C52123CA4B00A70C0B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				00B4F2C62123CA4B00A70C0B /* FKPersistentThreadPool.h */,
+				00B4F2C72123CA4B00A70C0B /* FKPersistentThreadPool.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		1DB4165F1C97E55E006F3A50 = {
 			isa = PBXGroup;
 			children = (
-				1DB4166A1C97E55F006F3A50 /* XPersistentThreadPool */,
-				1DB416991C97E79A006F3A50 /* XPersistentThreadPoolTests */,
+				00B4F2B92123CA4B00A70C0B /* FKPersistentThreadPool */,
+				1DB416991C97E79A006F3A50 /* FKPersistentThreadPoolTests */,
 				1DB416691C97E55E006F3A50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,61 +103,27 @@
 		1DB416691C97E55E006F3A50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DB416681C97E55E006F3A50 /* XPersistentThreadPool.app */,
-				1DB416981C97E79A006F3A50 /* XPersistentThreadPoolTests.xctest */,
+				1DB416681C97E55E006F3A50 /* FKPersistentThreadPool.app */,
+				1DB416981C97E79A006F3A50 /* FKPersistentThreadPoolTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1DB4166A1C97E55F006F3A50 /* XPersistentThreadPool */ = {
+		1DB416991C97E79A006F3A50 /* FKPersistentThreadPoolTests */ = {
 			isa = PBXGroup;
 			children = (
-				1DB416901C97E5A3006F3A50 /* src */,
-				1DB4166E1C97E55F006F3A50 /* AppDelegate.h */,
-				1DB4166F1C97E55F006F3A50 /* AppDelegate.m */,
-				1DB416711C97E55F006F3A50 /* ViewController.h */,
-				1DB416721C97E55F006F3A50 /* ViewController.m */,
-				1DB416741C97E55F006F3A50 /* Main.storyboard */,
-				1DB416771C97E55F006F3A50 /* Assets.xcassets */,
-				1DB416791C97E55F006F3A50 /* LaunchScreen.storyboard */,
-				1DB4167C1C97E55F006F3A50 /* Info.plist */,
-				1DB4166B1C97E55F006F3A50 /* Supporting Files */,
-			);
-			path = XPersistentThreadPool;
-			sourceTree = "<group>";
-		};
-		1DB4166B1C97E55F006F3A50 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1DB4166C1C97E55F006F3A50 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1DB416901C97E5A3006F3A50 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				1DB416911C97E5B2006F3A50 /* XPersistentThreadPool.h */,
-				1DB416921C97E5B2006F3A50 /* XPersistentThreadPool.m */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		1DB416991C97E79A006F3A50 /* XPersistentThreadPoolTests */ = {
-			isa = PBXGroup;
-			children = (
-				1DB4169A1C97E79A006F3A50 /* XPersistentThreadPoolTests.m */,
+				1DB4169A1C97E79A006F3A50 /* FKPersistentThreadPoolTests.m */,
 				1DB4169C1C97E79A006F3A50 /* Info.plist */,
 			);
-			path = XPersistentThreadPoolTests;
+			path = FKPersistentThreadPoolTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1DB416671C97E55E006F3A50 /* XPersistentThreadPool */ = {
+		1DB416671C97E55E006F3A50 /* FKPersistentThreadPool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DB4168A1C97E55F006F3A50 /* Build configuration list for PBXNativeTarget "XPersistentThreadPool" */;
+			buildConfigurationList = 1DB4168A1C97E55F006F3A50 /* Build configuration list for PBXNativeTarget "FKPersistentThreadPool" */;
 			buildPhases = (
 				1DB416641C97E55E006F3A50 /* Sources */,
 				1DB416651C97E55E006F3A50 /* Frameworks */,
@@ -139,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = XPersistentThreadPool;
+			name = FKPersistentThreadPool;
 			productName = XPersistentThreadPool;
-			productReference = 1DB416681C97E55E006F3A50 /* XPersistentThreadPool.app */;
+			productReference = 1DB416681C97E55E006F3A50 /* FKPersistentThreadPool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1DB416971C97E79A006F3A50 /* XPersistentThreadPoolTests */ = {
+		1DB416971C97E79A006F3A50 /* FKPersistentThreadPoolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DB4169F1C97E79A006F3A50 /* Build configuration list for PBXNativeTarget "XPersistentThreadPoolTests" */;
+			buildConfigurationList = 1DB4169F1C97E79A006F3A50 /* Build configuration list for PBXNativeTarget "FKPersistentThreadPoolTests" */;
 			buildPhases = (
 				1DB416941C97E79A006F3A50 /* Sources */,
 				1DB416951C97E79A006F3A50 /* Frameworks */,
@@ -157,9 +151,9 @@
 			dependencies = (
 				1DB4169E1C97E79A006F3A50 /* PBXTargetDependency */,
 			);
-			name = XPersistentThreadPoolTests;
+			name = FKPersistentThreadPoolTests;
 			productName = XPersistentThreadPoolTests;
-			productReference = 1DB416981C97E79A006F3A50 /* XPersistentThreadPoolTests.xctest */;
+			productReference = 1DB416981C97E79A006F3A50 /* FKPersistentThreadPoolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +162,7 @@
 		1DB416601C97E55E006F3A50 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "_Finder丶Tiwk";
 				TargetAttributes = {
 					1DB416671C97E55E006F3A50 = {
@@ -180,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DB416631C97E55E006F3A50 /* Build configuration list for PBXProject "XPersistentThreadPool" */;
+			buildConfigurationList = 1DB416631C97E55E006F3A50 /* Build configuration list for PBXProject "FKPersistentThreadPool" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -193,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1DB416671C97E55E006F3A50 /* XPersistentThreadPool */,
-				1DB416971C97E79A006F3A50 /* XPersistentThreadPoolTests */,
+				1DB416671C97E55E006F3A50 /* FKPersistentThreadPool */,
+				1DB416971C97E79A006F3A50 /* FKPersistentThreadPoolTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,9 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB4167B1C97E55F006F3A50 /* LaunchScreen.storyboard in Resources */,
-				1DB416781C97E55F006F3A50 /* Assets.xcassets in Resources */,
-				1DB416761C97E55F006F3A50 /* Main.storyboard in Resources */,
+				00B4F2CB2123CA4B00A70C0B /* Main.storyboard in Resources */,
+				00B4F2C82123CA4B00A70C0B /* Assets.xcassets in Resources */,
+				00B4F2CA2123CA4B00A70C0B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB416731C97E55F006F3A50 /* ViewController.m in Sources */,
-				1DB416931C97E5B2006F3A50 /* XPersistentThreadPool.m in Sources */,
-				1DB416701C97E55F006F3A50 /* AppDelegate.m in Sources */,
-				1DB4166D1C97E55F006F3A50 /* main.m in Sources */,
+				00B4F2CC2123CA4B00A70C0B /* main.m in Sources */,
+				00B4F2CF2123CA4B00A70C0B /* FKPersistentThreadPool.m in Sources */,
+				00B4F2C92123CA4B00A70C0B /* ViewController.m in Sources */,
+				00B4F2CD2123CA4B00A70C0B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB4169B1C97E79A006F3A50 /* XPersistentThreadPoolTests.m in Sources */,
+				1DB4169B1C97E79A006F3A50 /* FKPersistentThreadPoolTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,26 +238,26 @@
 /* Begin PBXTargetDependency section */
 		1DB4169E1C97E79A006F3A50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1DB416671C97E55E006F3A50 /* XPersistentThreadPool */;
+			target = 1DB416671C97E55E006F3A50 /* FKPersistentThreadPool */;
 			targetProxy = 1DB4169D1C97E79A006F3A50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1DB416741C97E55F006F3A50 /* Main.storyboard */ = {
+		00B4F2BD2123CA4B00A70C0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DB416751C97E55F006F3A50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1DB416791C97E55F006F3A50 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DB4167A1C97E55F006F3A50 /* Base */,
+				00B4F2BE2123CA4B00A70C0B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00B4F2BF2123CA4B00A70C0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B4F2C02123CA4B00A70C0B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -277,13 +271,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -321,13 +325,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -355,9 +369,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XPersistentThreadPool/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FKPersistentThreadPool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.xkeshi.com.XPersistentThreadPool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finderTiwk.FKPersistentThreadPool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -366,9 +380,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XPersistentThreadPool/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FKPersistentThreadPool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.xkeshi.com.XPersistentThreadPool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finderTiwk.FKPersistentThreadPool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -378,11 +392,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				INFOPLIST_FILE = XPersistentThreadPoolTests/Info.plist;
+				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.xkeshi.com.XPersistentThreadPoolTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finderTiwk.FKPersistentThreadPoolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPersistentThreadPool.app/XPersistentThreadPool";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FKPersistentThreadPool.app/FKPersistentThreadPool";
 			};
 			name = Debug;
 		};
@@ -391,18 +405,18 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				INFOPLIST_FILE = XPersistentThreadPoolTests/Info.plist;
+				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.xkeshi.com.XPersistentThreadPoolTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finderTiwk.FKPersistentThreadPoolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPersistentThreadPool.app/XPersistentThreadPool";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FKPersistentThreadPool.app/FKPersistentThreadPool";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DB416631C97E55E006F3A50 /* Build configuration list for PBXProject "XPersistentThreadPool" */ = {
+		1DB416631C97E55E006F3A50 /* Build configuration list for PBXProject "FKPersistentThreadPool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DB416881C97E55F006F3A50 /* Debug */,
@@ -411,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DB4168A1C97E55F006F3A50 /* Build configuration list for PBXNativeTarget "XPersistentThreadPool" */ = {
+		1DB4168A1C97E55F006F3A50 /* Build configuration list for PBXNativeTarget "FKPersistentThreadPool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DB4168B1C97E55F006F3A50 /* Debug */,
@@ -420,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DB4169F1C97E79A006F3A50 /* Build configuration list for PBXNativeTarget "XPersistentThreadPoolTests" */ = {
+		1DB4169F1C97E79A006F3A50 /* Build configuration list for PBXNativeTarget "FKPersistentThreadPoolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DB416A01C97E79A006F3A50 /* Debug */,
