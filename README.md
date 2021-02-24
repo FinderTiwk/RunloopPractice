@@ -17,7 +17,7 @@ NSRunLoop常驻线程工具类
 >  Source0(触摸事件处理, performSelector:onThread:方法)
 >  Source1(系统事件,基本端口的线程间通讯)
 
-6. 常见的几种RunLoop模式：NSDefaultRunLoopMode,UITrackingRunLoopMode,NSDefaultRunLoopMode
+6. 常见的几种RunLoop模式：NSDefaultRunLoopMode,UITrackingRunLoopMode,NSRunLoopCommonModes
 
 7. autoreleasepool 在runLoop开启时(kCFRunLoopEntry)创建,休眠前(kCFRunLoopBeforeWaiting)销毁并创建,退出时(kCFRunLoopExit)再销毁
 
